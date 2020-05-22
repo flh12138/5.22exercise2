@@ -5,6 +5,7 @@
 //观察的位置
 cv::Point vP;
 
+
 void threshold_track(int, void *)//这里就是定义的一个回调函数，里面是canny相关的操作
 {
 	//Mat result;
